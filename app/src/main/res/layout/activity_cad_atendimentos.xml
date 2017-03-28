@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#f5f5f5"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:orientation="horizontal"
+            android:padding="5dp">
+
+            <TextView
+                android:layout_width="90dp"
+                android:layout_height="wrap_content"
+                android:text="Técnico: "
+                android:textSize="20dp" />
+
+            <Spinner
+                android:id="@+id/spn_operador"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Selecione"
+                android:spinnerMode="dialog"></Spinner>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:orientation="horizontal"
+            android:padding="5dp">
+
+            <TextView
+                android:layout_width="90dp"
+                android:layout_height="wrap_content"
+                android:text="Cliente:"
+                android:textSize="20dp" />
+
+            <Spinner
+                android:id="@+id/spn_cliente"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Selecione"
+                android:spinnerMode="dialog"></Spinner>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:orientation="horizontal"
+            android:padding="5dp">
+
+            <TextView
+                android:layout_width="90dp"
+                android:layout_height="wrap_content"
+                android:text="Tipo:"
+                android:textSize="20dp" />
+
+            <Spinner
+                android:id="@+id/spn_tip_att"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Selecione"
+                android:spinnerMode="dialog"></Spinner>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:orientation="horizontal"
+            android:padding="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Data ini.:"
+                android:textAlignment="center"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/btn_data_inicial"
+                android:layout_width="105dp"
+                android:layout_height="18dp"
+                android:layout_gravity="center_vertical"
+                android:background="@android:color/transparent"
+                android:text="Data"
+                android:textSize="15dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hora ini.:"
+                android:textAlignment="center"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/btn_hora_inicial"
+                android:layout_width="match_parent"
+                android:layout_height="18dp"
+                android:layout_gravity="center_vertical"
+                android:background="@android:color/transparent"
+                android:text="hora"
+                android:textSize="15dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:orientation="horizontal"
+            android:padding="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Data fin.:"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/btn_data_final"
+                android:layout_width="105dp"
+                android:layout_height="18dp"
+                android:layout_gravity="center_vertical"
+                android:background="@android:color/transparent"
+                android:text="Data"
+                android:textSize="15dp" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hora fin.:"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/btn_hora_final"
+                android:layout_width="match_parent"
+                android:layout_height="18dp"
+                android:layout_gravity="center_vertical"
+                android:background="@android:color/transparent"
+                android:text="Hora"
+                android:textSize="15dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:orientation="horizontal"
+            android:padding="5dp">
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="Módulo:"
+                android:textSize="20dp" />
+
+            <Spinner
+                android:id="@+id/spn_modulo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Selecione"
+                android:spinnerMode="dialog"
+                ></Spinner>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:orientation="horizontal"
+            android:padding="5dp">
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="Sub mód.:"
+                android:textSize="20dp" />
+
+            <Spinner
+                android:id="@+id/spn_sub_modulo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Selecione"
+                android:spinnerMode="dialog" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:orientation="horizontal"
+            android:padding="5dp">
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="Função:"
+                android:textSize="20dp" />
+
+            <Spinner
+                android:id="@+id/spn_funcao"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Selecione"
+                android:spinnerMode="dialog"></Spinner>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:orientation="horizontal"
+            android:padding="5dp"
+            android:weightSum="1">
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="Situação:"
+                android:textSize="20dp" />
+
+            <Spinner
+                android:id="@+id/situacao_dialog"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Selecione"
+                android:spinnerMode="dialog"></Spinner>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:orientation="horizontal"
+            android:padding="5dp">
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="Descrição: "
+                android:textSize="20dp" />
+
+            <EditText
+                android:id="@+id/txt_descricao"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxLength="150" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:orientation="horizontal"
+            android:padding="5dp">
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="Parecer: "
+                android:textSize="20dp" />
+
+            <EditText
+                android:id="@+id/txt_parecer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxLength="200"
+                android:maxLines="4" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:orientation="horizontal"
+            android:padding="5dp">
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="Obs.: "
+                android:textSize="20dp" />
+
+            <EditText
+                android:id="@+id/txt_observacoes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxLength="200"
+                android:maxLines="4" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Alpha Call App</string>
+    <string name="title_activity_principal">Principal</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!--Erros-->
+    <string name="campo_obrigatorio">Este campo é obrigatório!</string>
+
+
+    <!--Nomes de botões-->
+    <string name="data_inicial">Selecione a data inicial</string>
+
+    <string name="hora_inicial">Selecione a hora inicial</string>
+
+    <string name="data_final">Selecione a data final</string>
+
+    <string name="hora_final">Selecione a hora final</string>
+</resources>

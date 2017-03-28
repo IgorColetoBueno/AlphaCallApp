@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <item
+
+        android:id="@+id/SalvarAtt"
+        android:icon="@mipmap/ic_launcher"
+        android:showAsAction="always"
+        android:title="Novo" />
+
+
+    <item
+        android:id="@+id/AbrirUser"
+        android:showAsAction="always"
+        android:title="Usuários" />
+
+    <item
+        android:id="@+id/Logoff"
+        android:showAsAction="always"
+        android:title="Sair" />
+
+    <item
+        android:id="@+id/Sobre"
+        android:showAsAction="always"
+        android:title="Sobre" />
+
+</menu>
